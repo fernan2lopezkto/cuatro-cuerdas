@@ -1,14 +1,20 @@
-import { useState } from "react";
 import Card from "./components/Card";
 import "./App.css";
+import tutorials from "./data/tutorials";
+
 
 function App() {
-  const [count, setCount] = useState(0);
+
+  const tutorialsList = tutorials.map(t => {
+    return (<Card title={t.name} description={t.description} />)
+  })
 
   return (
     <>
       <h1>Cuatro Cuerdas</h1>
-      <Card />
+      <div className="container">
+        {tutorialsList}
+      </div>
     </>
   );
 }
