@@ -1,29 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import About from './pages/About.jsx';
+import ErrorPage from './error-page';
 import './index.css'
-import { createBrowserRouter, RouterProvider, routes } from 'react-router-dom'
-import tutorials from './data/tutorials.js'
-import TutorialView from './views/TutorialView.jsx'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
-const routes = [
+const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/cuatro-cuerdas",
     element: <App />,
+    errorElement: <ErrorPage />
   },
-];
+  {
+    path: "/cuatro-cuerdas/about",
+    element: <About />,
+  },
+]);
 
-tutorials.forEach((tutorial) => {
-  routes.push({
-    path: tutorial.name,
-    element: <TutorialView vehicle={tutorial} />,
-  });
-});
-
-const router = createBrowserRouter(routes);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
-);
+  <RouterProvider router={router} />
+
+  </React.StrictMode>,
+)
