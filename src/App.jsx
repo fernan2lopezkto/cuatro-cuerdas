@@ -1,7 +1,7 @@
 import "./App.css";
-import Card from "./component/Card";
+import Card from "./components/Card";
 import tutorials from "./data/tutorials"
-import Footer from "./component/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   const tutorialList = tutorials.map(t => {
