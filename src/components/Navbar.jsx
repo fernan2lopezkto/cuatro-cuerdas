@@ -53,22 +53,22 @@ export default function Navbar() {
           <li className="li_link">
             <NavLink 
             to="/cuatro-cuerdas"
-            className={({ isActive }) => (isActive ? "active" : "")}>
+            className="link">
               Inicio
             </NavLink>
           </li>
           <li className="li_link">
-            <NavLink to="/cuatro-cuerdas/tutoriales">
+            <NavLink className="link" to="/cuatro-cuerdas/tutoriales">
               Tutoriales
             </NavLink>
           </li>
           <li className="li_link">
-            <NavLink to="/cuatro-cuerdas/about">
+            <NavLink className="link" to="/cuatro-cuerdas/about">
               about
             </NavLink>
           </li>
           <li className="li_link">
-            <NavLink to="/cuatro-cuerdas/contact">
+            <NavLink className="link" to="/cuatro-cuerdas/contact">
               Contacto
             </NavLink>
           </li>

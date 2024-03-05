@@ -4,7 +4,7 @@ ol, ul {
 
 .header {
     height: var(--altura_header);
-    background-color: var(--color-secundary);
+    background-color: black;
 
 }
 .navbar {
@@ -54,10 +54,12 @@ ol, ul {
     transition: all .4s;
 }
 
-.active {
-    font-weight: bold;
-    font-size: 5rem;
-    color: var(--color-secundary);
+.link {
+    color: aliceblue;
+}
+
+.link:hover {
+    color: aqua;
 }
 
 

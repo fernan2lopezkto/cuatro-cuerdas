@@ -11,7 +11,7 @@ export default function TutorialsGallery() {
   })
   return (
     <>
-      <Navbar />
+      <NavBar />
       <h1>Cuatro Cuerdas</h1>
       <div className="container">
         {tutorialList}

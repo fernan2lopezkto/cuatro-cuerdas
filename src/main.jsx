@@ -7,7 +7,6 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import TutorialsGallery from "./pages/TutorialsGallery"
 import "./index.css";
-import Foot from "./components/Footer.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -34,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cuatro-cuerdas/*",
-    element: (
+    element:
       <div>
         <h2>Pagina no encontrada</h2>
       </div>,
@@ -45,6 +44,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    <Foot />
   </React.StrictMode>
 );
