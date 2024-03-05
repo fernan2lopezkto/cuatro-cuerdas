@@ -6,7 +6,7 @@ proyecto para ordenar mis videotutoriales de música de youtube, y practicar con
 
 ## link de la página 
 
-<a href="https://fernan2lopezkto.github.io/app_sueldo">Cuatro Cuerdas</a>
+<a href="https://fernan2lopezkto.github.io/cuatro-cuerdas">Cuatro Cuerdas</a>
 
 
 ## React + Vite
