@@ -37,8 +37,7 @@ const router = createBrowserRouter([
     element: (
       <div>
         <h2>Pagina no encontrada</h2>
-      </div>
-    ),
+      </div>,
     errorElement: <ErrorPage />,
   },
 ]);
