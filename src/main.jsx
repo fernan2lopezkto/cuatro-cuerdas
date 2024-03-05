@@ -4,6 +4,8 @@ import ReactDOM from "react-dom/client";
 import About from "./pages/About.jsx";
 import ErrorPage from "./pages/Error-page";
 import Home from "./pages/Home"
+import Contact from "./pages/Contact"
+import TutorialsGallery from "./pages/TutorialsGallery"
 import "./index.css";
 import Foot from "./components/Footer.jsx";
 
@@ -12,9 +14,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/cuatro-cuerdas",
-    element: (
-      <Home />
-    ),
+    element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
@@ -24,16 +24,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/cuatro-cuerdas/contact",
-    element: (
-      <div>
-        <h1>Contacto</h1>
-      </div>
-    ),
+    element: <Contact />,
     errorElement: <ErrorPage />,
   },
   {
     path: "/cuatro-cuerdas/tutoriales",
-    element: <App />,
+    element: <TutorialsGallery />,
     errorElement: <ErrorPage />,
   },
   {
