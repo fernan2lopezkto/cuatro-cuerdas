@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+
 import About from "./pages/About.jsx";
-import ErrorPage from "./error-page";
+import ErrorPage from "./pages/Error-page";
+import Home from "./pages/Home"
 import "./index.css";
 import Foot from "./components/Footer.jsx";
 
@@ -12,9 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/cuatro-cuerdas",
     element: (
-      <div>
-        <h1>Inicio</h1>
-      </div>
+      <Home />
     ),
     errorElement: <ErrorPage />,
   },
