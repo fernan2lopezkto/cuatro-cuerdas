@@ -6,7 +6,7 @@ function Card({ title = "titulo por defecto", description = "descripcion por def
       <h2>
         {title}
       </h2>
-      <pre>{description}</pre>
+      <p>{description}</p>
     </div>
   );
 }
