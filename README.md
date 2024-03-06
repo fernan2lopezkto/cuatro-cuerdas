@@ -1,5 +1,13 @@
 # cuatro-cuerdas
+
 proyecto para ordenar mis videotutoriales de música de youtube, y practicar con vite react
+
+
+
+## link de la página 
+
+<a href="https://fernan2lopezkto.github.io/cuatro-cuerdas">Cuatro Cuerdas</a>
+
 
 ## React + Vite
 
