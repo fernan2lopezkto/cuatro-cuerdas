@@ -4,7 +4,7 @@ ol, ul {
 
 .header {
     height: var(--altura_header);
-    background-color: black;
+    background-color: var(--color-secundary);
 
 }
 .navbar {
@@ -33,7 +33,7 @@ ol, ul {
 }
 .ul_links {
     width: 100%;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-suave);
 
     top: var(--altura_header);
     left: 0;
