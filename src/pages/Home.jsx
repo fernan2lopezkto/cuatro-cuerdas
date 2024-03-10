@@ -5,7 +5,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <h1>Inicio</h1>
+      <div ClassName="home-general-container">
+        <h1>Cuatro Cuerdas</h1>
+        <p>Tutoriales</p>
+      </div>
       <Footer />
     </>
   );
