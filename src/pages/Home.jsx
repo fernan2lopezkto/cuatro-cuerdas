@@ -7,10 +7,11 @@ export default function Home() {
     <>
       <Navbar />
       <div className="page-container">
-      <div className="home-general-container">
+      <div className="home-titulo-container">
         <h1>Cuatro Cuerdas</h1>
         <p>Tutoriales</p>
       </div>
+        <div className="home-video-container">aqui va el vídeo </div>
       </div>
       <Footer />
     </>
