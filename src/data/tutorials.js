@@ -1,6 +1,8 @@
 const tutorials = [
     {
-      name: "Ven Espiritu Santo",
+      name: "sameone",
+      path: "path",
+      title: "Ven Espiritu Santo",
       description: "Ven Espíritu Santo Barak con acordes, guitarra, piano, bajo y pistas para ensayar",
       videoURL: "https://www.youtube.com/watch?v=gV7RkJtBOjU",
       LetraConAcordes: "INTRO:      MIm      RE     DO     SI 7    8 TIEMPOS CADA NOTA\nMIm\n                                     RE\n      Estoy aquí, desesperado por ti\n                      DO                                             SI 7\nCon un corazón sediento, que espera beber de ti\nDOCuando tu gloria desciende a un lugar\nRE\nToda la tierra tiene que adorar\n            LAm\nResucitan los muertos se sanan enfermos         SI\npor tu poder.\nDO\Queremos de ti llénanos de ti\nRE\nEspíritu santo envuélvenos en ti\n       LAm                                SI 7\nDerrama tu gloria, Esperamos por ti\n",

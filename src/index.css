@@ -29,3 +29,9 @@ body {
   background-color: var(--background-color);
   text-align: center;
 }
+
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
