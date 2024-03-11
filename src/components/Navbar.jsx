@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <header className="header">
       <nav className="navbar">
-        <h1 className="logo">4Cuerdas</h1>
+        <h1 className="logo">4C</h1>
 
         <label className="label_hamburguesa" For="menu_hamburguesa">
           <svg

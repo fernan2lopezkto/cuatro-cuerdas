@@ -21,8 +21,3 @@
 .footer-mail {
     color: var(--color-primary);
 }
-
-.footer-avatar {
-    height: 200px;
-    margin-top: -1000px;
-}
