@@ -1,4 +1,4 @@
-.home-general-container {
+.home-titulo-container {
     height: 50vh;
 
     margin: auto;
@@ -6,4 +6,9 @@
     align-items: center;
     justify-content: center;
 
+}
+
+.home-video-container {
+    max-width: 400px;
+    backgroundcolor: var(--color-primary)
 }
