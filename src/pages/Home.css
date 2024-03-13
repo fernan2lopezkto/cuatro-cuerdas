@@ -1,9 +1,14 @@
-.home-general-container {
-    height: 50vh;
+.home-titulo-container {
 
-    margin: auto;
+    margin: 50px auto;
 
     align-items: center;
     justify-content: center;
 
+}
+
+.home-video-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary)
 }
