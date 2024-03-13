@@ -2,6 +2,7 @@ import React from "react";
 import "./TutorialPage.css";
 import Navbar from "../components/Navbar";
 import Foot from "../components/Footer";
+import VideoPlayer from "../components/VideoPlayer";
 
 function TutorialPage({ tutorial }) {
   return (
@@ -9,7 +10,11 @@ function TutorialPage({ tutorial }) {
       <Navbar />
       <h1>{tutorial.name}</h1>
       <p>{tutorial.description}</p>
-      <img src={tutorial.image} alt={tutorial.name + " image"} />
+      
+      
+        <div className="home-video-container">
+            <VideoPlayer url={tutorial.videoURL />
+        </div>
       <Foot />
     </div>
   );
