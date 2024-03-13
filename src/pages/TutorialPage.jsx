@@ -15,6 +15,7 @@ function TutorialPage({ tutorial }) {
         <div className="home-video-container">
             <VideoPlayer url={tutorial.videoURL />
         </div>
+          <pre>{tutorial.lyric}</pre>
       <Foot />
     </div>
   );
