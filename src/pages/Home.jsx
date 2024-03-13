@@ -13,9 +13,9 @@ export default function Home() {
           <p>Tutoriales</p>
         </div>
         <div className="home-video-container">
-          <div>
+          
             <VideoPlayer url="https://www.youtube.com/watch?v=zuFbI7I_-RA" />
-          </div>
+          
         </div>
       </div>
       <Footer />
