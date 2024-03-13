@@ -39,7 +39,7 @@ const routes = [
 
 tutorials.forEach((tutorial) => {
   routes.push({
-    path: "/cuatro-cuerdas/tutoriales" + tutorial.name,
+    path: "/cuatro-cuerdas/tutoriales" + tutorial.path,
     element: <TutorialPage tutorial={tutorial}/>,
     errorElement: <ErrorPage />,
   })
