@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Card.css"
 
-function Card({ path = "titulo por defecto", description = "descripcion por defecto" }) {
+function Card({ name="Sin Nombre", path = "titulo por defecto", description = "descripcion por defecto" }) {
   return (
     <div className="Card">
       <h2>
         <Link to={"/cuatro-cuerdas/tutoriales" + path}>
-        {path}
+        {name}
         </Link>
       </h2>
       <p>{description}</p>
