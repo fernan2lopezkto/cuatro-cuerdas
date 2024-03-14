@@ -34,3 +34,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.videoContainer {
+  margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  
+  margin: 50px;
+}

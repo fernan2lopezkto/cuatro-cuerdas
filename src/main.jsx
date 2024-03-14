@@ -2,11 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import About from "./pages/About.jsx";
-import ErrorPage from "./pages/Error-page";
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import TutorialsGallery from "./pages/TutorialsGallery"
 import TutorialPage from "./pages/TutorialPage.jsx";
+
+import NotFound from "./pages/NotFound.jsx";
+import ErrorPage from "./pages/Error-page";
 
 import tutorials from "./data/tutorials.js";
 
@@ -39,7 +41,7 @@ const routes = [
 
 tutorials.forEach((tutorial) => {
   routes.push({
-    path: "/cuatro-cuerdas/tutoriales" + tutorial.path,
+    path: "/cuatro-cuerdas/tutoriales/" + tutorial.path,
     element: <TutorialPage tutorial={tutorial}/>,
     errorElement: <ErrorPage />,
   })
@@ -49,9 +51,7 @@ routes.push(
   {
     path: "/cuatro-cuerdas/*",
     element:
-      <div>
-        <h2>Pagina no encontradaaaaaaaaaa</h2>
-      </div>,
+      <NotFound />,
     errorElement: <ErrorPage />,
   },
 )

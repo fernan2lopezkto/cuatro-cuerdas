@@ -8,7 +8,9 @@
 }
 
 .home-video-container {
+
+    margin: 50px auto;
     display: flex;
     align-items: center;
-    background-color: var(--color-primary)
+    justify-content: center;
 }
