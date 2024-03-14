@@ -18,6 +18,7 @@ function TutorialPage({ tutorial }) {
           <div>
               <pre>{tutorial.lyric}</pre>
           </div>
+          <div>{tutorial.longDescription}</div>
       <Foot />
     </div>
   );
