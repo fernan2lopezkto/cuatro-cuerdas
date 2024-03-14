@@ -7,7 +7,7 @@ import NavBar from "../components/Navbar";
 
 export default function TutorialsGallery() {
   const tutorialList = tutorials.map(t => {
-    return <Card title = {t.name} description = {t.description} />
+    return <Card name = {t.name} description = {t.description} path = {t.path} />
   })
   return (
     <>
