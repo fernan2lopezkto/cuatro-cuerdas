@@ -39,7 +39,7 @@ function TutorialPage({ tutorial }) {
   <VideoPlayer url={tutorial.videoURL} />
         </div>
           <div>
-              <pre>lyrics</pre>
+              <pre>{tutorial.lyrics}</pre>
           </div>
           <div>{tutorial.longDescription}</div>
 </div>
