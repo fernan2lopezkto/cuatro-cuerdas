@@ -7,13 +7,13 @@ import NavBar from "../components/Navbar";
 
 export default function TutorialsGallery() {
   const tutorialList = tutorials.map(t => {
-    return <Card name = {t.name} description = {t.description} path = {t.path} />
+    return <Card name = {t.name} description = {t.description} path = {t.path} image = {t.image} />
   })
   return (
     <>
       <NavBar />
       <h1>Cuatro Cuerdas</h1>
-      <div className="container">
+      <div className="containerCards">
         {tutorialList}
       </div>
       <Footer />
