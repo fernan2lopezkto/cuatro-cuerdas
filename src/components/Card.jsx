@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import "./Card.css"
 
-function Card({ name="Sin Nombre", path = "titulo por defecto", description = "descripcion por defecto" }) {
+function Card({ name="Sin Nombre", path = "titulo por defecto", description = "descripcion por defecto", image = "imagen" }) {
   return (
     <div className="Card">
       <h2>
@@ -10,6 +9,8 @@ function Card({ name="Sin Nombre", path = "titulo por defecto", description = "d
         </Link>
       </h2>
       <p>{description}</p>
+      <img src={image} alt={name + " image"} />
+
     </div>
   );
 }

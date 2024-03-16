@@ -1,0 +1,40 @@
+
+
+.page-container {
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoContainer {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.home-titulo-container {
+
+  margin: 50px auto;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home-video-container {
+
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+

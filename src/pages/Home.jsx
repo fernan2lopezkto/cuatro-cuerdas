@@ -1,23 +1,24 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import VideoPlayer from "../components/VideoPlayer";
-import "./Home.css";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="page-container">
-        <div className="home-titulo-container">
-          <h1>Cuatro Cuerdas</h1>
-          <p>Tutoriales</p>
-        </div>
-        <div className="home-video-container">
-          
+      <sect className="columContainer">
+        <div className="container">
+          <div className="columContainer">
+            <div>
+              <h1>Cuatro Cuerdas</h1>
+              <p>Tutoriales</p>
+            </div>
+          </div>
+          <div className="container">
             <VideoPlayer url="https://www.youtube.com/watch?v=YKM5qWuOObA" />
-          
+          </div>
         </div>
-      </div>
+      </sect>
       <Footer />
     </>
   );

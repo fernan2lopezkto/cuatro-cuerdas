@@ -1,4 +1,3 @@
-import "./Footer.css";
 import link from "../assets/images/linkedin.png";
 import git from "../assets/images/github.png";
 import insta from "../assets/images/instagram.png";
