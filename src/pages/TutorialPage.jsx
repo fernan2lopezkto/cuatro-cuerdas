@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./TutorialPage.css";
 import Navbar from "../components/Navbar";
 import Foot from "../components/Footer";
 import VideoPlayer from "../components/VideoPlayer";
@@ -27,13 +26,13 @@ function TutorialPage({ tutorial }) {
   }, [tutorial]);
 
   return (
-    <div className="tutorialPage">
+    <div>
       <Navbar />
-      <div className="tutorialPage-container">
+      <div className="columContainer">
         <h1>{tutorial.name}</h1>
         <p>{tutorial.description}</p>
 
-        <div className="container" style={{display: "flex"}}>
+        <div className="container">
           <VideoPlayer url={tutorial.videoURL} />
           <div className="container">
             <pre>{tutorial.lyrics}</pre>
