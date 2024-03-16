@@ -32,7 +32,7 @@ body {
 }
 
 sect {
-  min-height: calc(100vh - var(--altura_header));
+  min-height: calc(100vh - var(--altura_header) - 250px);
 }
 
 ol,
