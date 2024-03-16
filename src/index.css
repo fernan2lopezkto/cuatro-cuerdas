@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #980303;
+  --color-primary-suave: #980303e5;
+  --color-secundary: #2c0a0a;
+  --background-color: #000;
+
+  --color_primario: #8527c3fd;
+  --color_primario_suave: #8527c383;
+  --color_blanco: #fff;
+  
+  --altura_header: 80px;
+  --padding_left_right: 2rem;
+  --ancho_maximo: 1200px;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
