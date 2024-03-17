@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
+import "../styles/NavBar.css"
+
 export default function Navbar() {
   useEffect(() => {
     const links = document.querySelectorAll(".link");

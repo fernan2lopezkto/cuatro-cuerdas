@@ -17,10 +17,10 @@ export default function TutorialsGallery() {
   return (
     <>
       <NavBar />
-      <sect>
-        <h1>Cuatro Cuerdas</h1>
+      <section className="Container">
+        <h1 className="Container">Tutoriales</h1>
         <div className="containerCards">{tutorialList}</div>
-      </sect>
+        </section>
       <Footer />
     </>
   );

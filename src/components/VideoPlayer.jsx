@@ -2,7 +2,7 @@ import ReactPlayer from "react-player/youtube";
 
 function VideoPlayer({ url }) {
   return (
-    <div className="videoContainer">
+    <div>
       <ReactPlayer 
       url={url} 
       controls={true} 
