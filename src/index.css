@@ -1,12 +1,12 @@
 :root {
   --color-primary: #980303;
-  --color-primary-suave: #980303e5;
+  --color-primary-suave: #902e2ed4;
   --color-secundary: #2c0a0a;
   --background-color: #000;
 
   --color_primario: #8527c3fd;
   --color_primario_suave: #8527c383;
-  --color_blanco: #fff;
+  --color_blanco: #dedcdcb7;
 
   --altura_header: 80px;
   --padding_left_right: 2rem;
@@ -14,6 +14,7 @@
 }
 
 * {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -31,8 +32,8 @@ body {
   padding-bottom: 250px;
 }
 
-sect {
-  min-height: calc(100vh - var(--altura_header));
+section {
+  min-height: calc(100vh - var(--altura_header) - 250px);
 }
 
 ol,
@@ -40,111 +41,78 @@ ul {
   list-style: none;
 }
 
-.container {
+.Container {
   width: 100%;
   display: flex;
-  padding: 3%;
-}
-
-.columContainer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 3%;
-  align-items: center;
-}
-
-/* NavBar */
-
-.header {
-  height: var(--altura_header);
-  background-color: var(--color-secundary);
-}
-.navbar {
-  height: 100%;
-  display: flex;
-
-  width: min(1200px, 100%);
-  margin: 0 auto;
-
-  justify-content: space-between;
-  align-items: center;
-
+  flex-direction: row;
   flex-wrap: wrap;
-  position: relative;
-
-  padding: 0 var(--padding_left_right);
-
-  z-index: 200;
-}
-.logo {
-  color: var(--color-primary);
-}
-.list_icon {
-  color: var(--color-primary);
-  cursor: pointer;
-}
-.ul_links {
-  width: 100%;
-  background-color: var(--color-primary-suave);
-
-  top: var(--altura_header);
-  left: 0;
-  position: absolute;
-
-  display: flex;
-  justify-content: center;
+  padding: 5%;
   align-items: center;
-
+  justify-content: center;
+}
+.ContainerS {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+}
+.Container-T-D {
+  max-width: 600px;
+  display: flex;
   flex-direction: column;
-
-  height: 0;
-  overflow: hidden;
-
-  gap: 3rem;
-
-  transition: all 0.4s;
+  padding: 5%;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.link {
-  color: aliceblue;
+.Element {
+  padding: 10%;
 }
 
-.link:hover {
-  color: aqua;
+.ElementS {
+  padding: 5%;
+  align-items: center;
 }
 
-.menu_hamburguesa {
-  display: none;
-}
-
-.menu_hamburguesa:checked + .ul_links {
-  height: calc(100vh - var(--altura_header));
+.ElementS p {
+  margin-bottom: 10%;
 }
 
 @media (min-width: 768px) {
-  .label_hamburguesa {
-    display: none;
+  .ElementS {
+    height: 100%;
+    width: 60%;
   }
-  .ul_links {
-    background-color: var(--color-secundary);
-    position: static;
-    width: auto;
-    flex-direction: row;
-    height: auto;
-    gap: 2rem;
+  pre {
+    width: 40%;
   }
-  .link {
-    color: var(--color-primary);
-    font-size: 1.5rem;
-    padding: 0.2rem 0.2rem;
-    transition: all 0.4s;
+  .div {
+    height: 70%;
+    width: 100%;
   }
-  .link:hover {
-    font-size: 1.7rem;
-    color: var(--color-primary);
-    padding: 0.2rem 0.7rem;
+  .ElementS p {
+    height: 20%;
   }
+}
+
+pre {
+  font-size: small;
+  text-align: left;
+  color: var(--color_blanco);
+  display: flex;
+}
+
+.tutorialPage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilos Para Video, Galerry Cards  */
@@ -178,7 +146,7 @@ ul {
 
 .footer-description {
   margin: 40px;
-  color: white;
+  color: var(--color_blanco);
 }
 
 .footer-container {
@@ -194,5 +162,5 @@ ul {
 }
 
 .footer-mail {
-  color: var(--color-primary);
+  color: var(--color-primary-suave);
 }

@@ -28,18 +28,29 @@ function TutorialPage({ tutorial }) {
   return (
     <div>
       <Navbar />
-      <div className="columContainer">
-        <h1>{tutorial.name}</h1>
-        <p>{tutorial.description}</p>
+      <section className="Container">
+        <div>
+          <h1>{tutorial.name}</h1>
+        </div>
 
-        <div className="container">
-          <VideoPlayer url={tutorial.videoURL} />
-          <div className="container">
+        <div className="ContainerS">
+          <div className="ElementS">
+            <p className="titulesss">{tutorial.description}</p>
+            <div className="div">
+              <VideoPlayer url={tutorial.videoURL} />
+            </div>
+          </div>
+
+          <div>
             <pre>{tutorial.lyrics}</pre>
           </div>
         </div>
 
-        <div className="container">{tutorial.longDescription}</div>
+        <div className="Container">{tutorial.longDescription}</div>
+      </section>
+      <div className="Container">
+        <VideoPlayer url="https://www.youtube.com/watch?v=CnW00jnh7bI" />
+        <VideoPlayer url="https://www.youtube.com/watch?v=JhoRz5qHM8U" />
       </div>
       <Foot />
     </div>
