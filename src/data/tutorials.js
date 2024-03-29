@@ -1,5 +1,6 @@
 const tutorials = [
     {
+      id: 1,
       name: "Ven Espíritu Santo",
       path: "ven-espiritu-santo-pista-guitarra-bajo-piano",
       title: "Ven Espiritu Santo",
@@ -11,6 +12,7 @@ const tutorials = [
       tutorialType: ["pista", "explicacion", "cover"],
     },
     {
+      id: 2,
       name: "Tu eres Rey",
       path: "tu-eres-rey-guitarra",
       title: "Tu eres Rey, Barak, tutorial fácil en guitarra",
@@ -22,6 +24,7 @@ const tutorials = [
       tutorialType: ["explicacion"],
     },
     {
+      id:3,
       name: "la tierra canta",
       path: "la-tierra-canta-guitarra",
       title: "la tierra canta, Barak, tutorial",
@@ -34,6 +37,7 @@ const tutorials = [
     },
     /*
     {
+      id: ,
       name: "bb",
       path: "path",
       title: "",
