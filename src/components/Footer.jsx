@@ -17,7 +17,7 @@ export default function Foot() {
           <a href="https://www.linkedin.com/in/juan-rey-fernan2lopezkto/">
             <img className="footer-social-icon" src={link} alt="Linkedin" />
           </a>
-          <a href="https://github.com/fernan2lopezkto/qizbible">
+          <a href="https://github.com/fernan2lopezkto/cuatro-cuerdas">
             <img className="footer-social-icon" src={git} alt="Github" />
           </a>
           <a href="https://www.instagram.com/fernan2lopezkto/">
