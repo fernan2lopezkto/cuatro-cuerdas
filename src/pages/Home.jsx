@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { NavLink } from "react-router-dom";
 import VideoPlayer from "../components/VideoPlayer";
+import { NavLink, Link } from "react-router-dom";
 import { Button, Container, Grid, Typography } from "@mui/material";
 
 export default function Home() {
@@ -27,6 +27,7 @@ export default function Home() {
           </Grid>
         </Grid>
 
+
         <Grid
           container
           justifyContent="center"
@@ -35,16 +36,16 @@ export default function Home() {
         >
           <Grid item xs={12} sm={4}>
             <Button variant="outlined" color="error">
-              <NavLink className="link" to="/cuatro-cuerdas/tutorials">
+              <NavLink className="link2" to="/cuatro-cuerdas/tutorials">
                 <Typography variant="h6" component="p">
-                  Tutoriales Explicados
+                  Explicados
                 </Typography>
               </NavLink>
             </Button>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Button variant="outlined" color="error">
-              <NavLink className="link" to="/cuatro-cuerdas/pistatutorials">
+              <NavLink className="link2" to="/cuatro-cuerdas/pistatutorials">
                 <Typography variant="h6" component="p">
                   Con Pistas
                 </Typography>
@@ -53,7 +54,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={12} sm={4}>
             <Button variant="outlined" color="error">
-              <NavLink className="link" to="/cuatro-cuerdas/covers">
+              <NavLink className="link2" to="/cuatro-cuerdas/covers">
                 <Typography variant="h6" component="p">
                   Covers
                 </Typography>
@@ -70,14 +71,14 @@ export default function Home() {
         >
           <Grid item xs={12}>
             <Typography variant="h5" component="h2">
+              <Link className="link" to="/cuatro-cuerdas/material-extra">
               Material Extra
+              </Link>
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <VideoPlayer url="https://www.youtube.com/watch?v=CnW00jnh7bI" />
           </Grid>
           <Grid item xs={12} sm={4}>
-            <VideoPlayer url="https://www.youtube.com/watch?v=JhoRz5qHM8U" />
           </Grid>
         </Grid>
       </Container>
