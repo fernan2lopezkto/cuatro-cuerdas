@@ -59,7 +59,7 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="li_link">
-            <NavLink className="link" to="/cuatro-cuerdas/tutoriales">
+            <NavLink className="link" to="/cuatro-cuerdas/alltutorials">
               Tutoriales
             </NavLink>
           </li>

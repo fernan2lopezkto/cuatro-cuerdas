@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -10,7 +10,7 @@ function NotFound() {
       <h1>Pagina no encontrada</h1>
       <Footer />
     </>
-  )
+  );
 }
 
-export default NotFound
+export default NotFound;

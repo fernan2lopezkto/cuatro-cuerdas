@@ -4,11 +4,16 @@ import ReactDOM from "react-dom/client";
 import About from "./pages/About.jsx";
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
-import TutorialsGallery from "./pages/TutorialsGallery"
 import TutorialPage from "./pages/TutorialPage.jsx";
 
 import NotFound from "./pages/NotFound.jsx";
 import ErrorPage from "./pages/Error-page";
+
+
+import TutorialsGallery from "./pages/TutorialsGallery.jsx";
+import PistasGallery from "./pages/PistasGallery.jsx";
+import AllTutorialsGallery from "./pages/AllTutorialsGallery.jsx";
+import CoversGallery from "./pages/CoversGallery.jsx";
 
 import tutorials from "./data/tutorials.js";
 
@@ -39,8 +44,23 @@ const routes = [
     errorElement: <ErrorPage />,
   },
   {
-    path: "/cuatro-cuerdas/tutoriales",
+    path: "/cuatro-cuerdas/alltutorials",
+    element: <AllTutorialsGallery />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/cuatro-cuerdas/tutorials",
     element: <TutorialsGallery />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/cuatro-cuerdas/pistatutorials",
+    element: <PistasGallery />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/cuatro-cuerdas/covers",
+    element: <CoversGallery />,
     errorElement: <ErrorPage />,
   },
 ]
