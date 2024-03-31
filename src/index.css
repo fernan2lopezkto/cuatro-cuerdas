@@ -32,9 +32,6 @@ body {
   padding-bottom: 250px;
 }
 
-section {
-  min-height: calc(100vh - var(--altura_header) - 250px);
-}
 
 ol,
 ul {

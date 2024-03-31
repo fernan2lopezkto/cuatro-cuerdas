@@ -3,9 +3,9 @@ import tutorials from "../data/tutorials";
 import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
 
-export default function TutorialsGallery() {
+export default function AllTutorialsGallery() {
   const tutorialList = tutorials.map((t) => {
-    return ( t.tutorialType === "explicacion" &&
+    return (
       <Card
         name={t.name}
         description={t.description}
@@ -18,7 +18,7 @@ export default function TutorialsGallery() {
     <>
       <NavBar />
       <section className="Container">
-        <h1 className="Container">Tutoriales con explicacion</h1>
+        <h1 className="Container">Tutoriales</h1>
         <div className="containerCards">{tutorialList}</div>
         </section>
       <Footer />

@@ -9,7 +9,7 @@ const tutorials = [
       videoURL: "https://youtu.be/gV7RkJtBOjU?si=zXjqhDBQ7FLIKT59",
       lyrics: "INTRO:      MIm      RE     DO     SI 7\n    8 TIEMPOS CADA NOTA\n\n\n\nMIm                     RE\nEstoy aquí, desesperado por ti\n          DO                SI 7\nCon un corazón sediento, que espera beber de ti\n\nDO\nCuando tu gloria desciende a un lugar\nRE\nToda la tierra tiene que adorar\n         LAm\nResucitan los muertos se sanan enfermos\n       SI\npor tu poder.\nDO\nQueremos de ti llénanos de ti\nRE\nEspíritu santo envuélvenos en ti\n   LAm              SI 7\nDerrama tu gloria, Esperamos por ti\n\nCORO:\nMIm\nVen, ven, ven espíritu santo\nRE\nVen, ven, ven espíritu santo\nDO                       SI 7\nVen, ven, ven llena este lugar",
       image:"img/venEspSanMi-.jpg",
-      tutorialType: ["pista", "explicacion", "cover"],
+      tutorialType: "pista",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const tutorials = [
       videoURL: "https://www.youtube.com/watch?v=_Vp1yUOunck",
       lyrics: "C#m                      A\nOh perfecto inigualable Dios\n             E                     B\namor inexplicable, tu reino inigualable\nC#m                    A\nasombroso coronado estas,\n                   E                         B\nEn tu trono de victoria, vestido estas de Gloria\n\n\n      C#m                           A\nPor los siglos de los siglos, tu reino se establecerá\n           E                                           B\ndigno De gloria, digno de honor, digno de toda adoración\n\n\nCoro\n\n   C#m              A                 E       B\nTu eres Rey, tu eres Rey, tu eres Reeeeey\n\n\n\nC#m                     A\nHoy perfumamos tu trono, hoy perfumamos tu trono\nE                       B                 C#m\nhoy perfumamos tu trono, recibe alabanza",
       image:"img/tu-eres-rey_MI.jpg",
-      tutorialType: ["explicacion"],
+      tutorialType: "explicacion",
     },
     {
       id:3,
@@ -31,9 +31,9 @@ const tutorials = [
       description: "hoy les traigo un tutorial de como tocar la tierra canta de Barak, ",
       longDescription: "suuuuper sencilloespero haberme expresado bien y que se entienda,  ",
       videoURL: "https://www.youtube.com/watch?v=HbCJbJG0CoY",
-      lyrics: " ",
+      lyrics: "Tono:Lam\n\n\n   Lam\nSe abren los cielos\n      Fa                   Do   Sol\nSe escucha un sonido celestial\n Lam\nUnido a la voces\n       Fa                       Do  Sol\nDe un pueblo que te quiere adorar\n     Lam\nEl espíritu de Dios\n      Fa                Do   Sol\nSe mueve libre en este lugar\n    Lam\nEl padre alegre esta\n    Fa                   Do   Sol\nAl ver la novia unirse a adorar\nSe escucha\n\nLam\n   La tierra canta\nFa\n   El cielo adora\nDo                   Sol\n   Y todos gritan\n               Lam\nQue tu eres santo\nLam\nAngeles se unen hoy\n    Fa\nCantamos a una sola voz\n Do      Sol\nSanto, Santo",
       image:"img/la-tierra-canta_Guitarra.jpg",
-      tutorialType: ["explicacion"],
+      tutorialType: "explicacion",
     },
     /*
     {
