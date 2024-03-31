@@ -62,6 +62,14 @@
   color: aqua;
 }
 
+.link2 {
+  color: var(--color-primary-suave);
+}
+
+.link2:hover {
+  color: var(--color-primary);
+}
+
 .menu_hamburguesa {
   display: none;
 }
