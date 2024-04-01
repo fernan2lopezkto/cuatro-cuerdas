@@ -4,7 +4,7 @@ function Card({ name="Sin Nombre", path = "titulo por defecto", description = "d
   return (
     <div className="Card">
       <h2>
-        <Link to={"/cuatro-cuerdas/tutoriales/" + path}>
+        <Link className="link2" to={"/cuatro-cuerdas/tutoriales/" + path}>
         {name}
         </Link>
       </h2>
