@@ -56,6 +56,7 @@
 
 .link {
   color: var(--color_blanco);
+  text-decoration: none;
 }
 
 .link:hover {
@@ -95,6 +96,7 @@
     font-size: 1.5rem;
     padding: 0.2rem 0.2rem;
     transition: all 0.4s;
+    text-decoration: none;
   }
   .link:hover {
     font-size: 1.7rem;

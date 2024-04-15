@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Foot from "../components/Footer";
 import VideoPlayer from "../components/VideoPlayer";
+import SelectorTypeTutorials from "../components/SelectorTypeTutorials";
+import MaterialExtraComponent from "../components/MaterialExtraComponent";
 
 function TutorialPage({ tutorial }) {
   const [lyrics, setlyrics] = useState("");
@@ -26,7 +28,7 @@ function TutorialPage({ tutorial }) {
   }, [tutorial]);
 
   return (
-    <div>
+    <>
       <Navbar />
       <section className="Container">
         <div>
@@ -48,12 +50,11 @@ function TutorialPage({ tutorial }) {
 
         <div className="Container">{tutorial.longDescription}</div>
       </section>
-      <div className="Container">
-        <VideoPlayer url="https://www.youtube.com/watch?v=CnW00jnh7bI" />
-        <VideoPlayer url="https://www.youtube.com/watch?v=JhoRz5qHM8U" />
-      </div>
+
+      <SelectorTypeTutorials />
+      <MaterialExtraComponent />
       <Foot />
-    </div>
+    </>
   );
 }
 
