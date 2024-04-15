@@ -49,10 +49,13 @@ const tutorials = [
     name: "QUIERO CONOCER COVER",
     path: "quiero-conocer-a-jesus-cover",
     title: "Quiero conocer a Jesus Cover",
-    description: "Bendiciones, el día de hoy les traigo un cover de esta hermosa canción.",
-    longDescription: "Hola como están? \nBendiciones, el día de hoy les traigo un cover de esta hermosa canción. “quiero conocer a Jesús ” espero que les guste, si ese es el caso te pido que nos ayudes con un like, la idea es hacer los covers con mi amigo Marcos y luego sacar los respectivos  tutoriales, en guitarra bajo o teclado,  si tienes alguna canción en mente que quieras aprender solo dímela y te ayudaremos a aprenderla de una forma fácil y sencilla.\n\nTe agradecería mucho si lo compartes y si comentas. Cuéntanos que te pareció, sugerencias recomendaciones y opiniones serán bien recibidas. La intención es crecer y de esa manera nos podrías ayudar.",
+    description:
+      "Bendiciones, el día de hoy les traigo un cover de esta hermosa canción.",
+    longDescription:
+      "Hola como están? \nBendiciones, el día de hoy les traigo un cover de esta hermosa canción. “quiero conocer a Jesús ” espero que les guste, si ese es el caso te pido que nos ayudes con un like, la idea es hacer los covers con mi amigo Marcos y luego sacar los respectivos  tutoriales, en guitarra bajo o teclado,  si tienes alguna canción en mente que quieras aprender solo dímela y te ayudaremos a aprenderla de una forma fácil y sencilla.\n\nTe agradecería mucho si lo compartes y si comentas. Cuéntanos que te pareció, sugerencias recomendaciones y opiniones serán bien recibidas. La intención es crecer y de esa manera nos podrías ayudar.",
     videoURL: "https://www.youtube.com/watch?v=ZflFY8Yk_ig",
-    lyrics:"Mi orgullo me sacó del jardín\nSu humildad puso el jardín en mí\nY si vendiera todo lo que tengo\nA cambio de Su amor, yo fallaría\n\nPorque Su amor no se compra\nNi se merece\nSu amor es un regalo\nDe gracia, se recibe\n\nQuiero conocer a Jesús\n\nY ser hallado en Él\n\nYeshua, ah-ah-ah, ah-ah-ah\n\nMi amado es el más bello\nEntre millares y millares\nMi amado es el más bello\nEntre millares y millares\n\nMi preferido, mi predilecto\nMi preferido, mi predilecto, Jesús, Jesús\nMi preferido, mi predilecto\nMi preferido, mi predilecto, Jesús, Jesús",
+    lyrics:
+      "Mi orgullo me sacó del jardín\nSu humildad puso el jardín en mí\nY si vendiera todo lo que tengo\nA cambio de Su amor, yo fallaría\n\nPorque Su amor no se compra\nNi se merece\nSu amor es un regalo\nDe gracia, se recibe\n\nQuiero conocer a Jesús\n\nY ser hallado en Él\n\nYeshua, ah-ah-ah, ah-ah-ah\n\nMi amado es el más bello\nEntre millares y millares\nMi amado es el más bello\nEntre millares y millares\n\nMi preferido, mi predilecto\nMi preferido, mi predilecto, Jesús, Jesús\nMi preferido, mi predilecto\nMi preferido, mi predilecto, Jesús, Jesús",
     image: "img/quiero-conocer-a-jesus-Cover.webp",
     tutorialType: "cover",
   },
@@ -62,9 +65,11 @@ const tutorials = [
     path: "quiero-conocer-a-jesus-guitarra",
     title: "Quiero conocer a Jesus Guitarra",
     description: "tutorial Quiero conocer a Jeús facil bien explicado",
-    longDescription: "Video tutorial de como tocar la canción Quiero conocer a Jesus, de una forma bien fácil y sencilla. ",
+    longDescription:
+      "Video tutorial de como tocar la canción Quiero conocer a Jesus, de una forma bien fácil y sencilla. ",
     videoURL: "https://youtu.be/Uzw9tX1p_xo",
-    lyrics:"INTRO  Re  MI  FAm#  DOm#\n      Re                     MI\nMi orgullo me sacó del jardín\n         FAm#                  DOm#\nSu humildad puso el jardín en mí\n      Re                     MI\nY si vendiera todo lo que tengo\n    FAm#                       DOm#\nA cambio de Su amor, yo fallaría\n\n            Re\nPorque Su amor no se compra\nMI\nNi se merece\n    FAm#\nSu amor es un regalo\n    DOm#\nDe gracia, se recibe\n\n\n   Re                MI\nQuiero conocer a Jesús\n    FAm#              DOm#\nQuiero conocer a Jesús\n\n\nRe            MI FAm#   DOm# \nYeshua, ah-ah-ah, ah-ah-ah\n\n     RE             FAm#\nMi amado es el más bello\n          LA          DOm#\nEntre millares y millares",
+    lyrics:
+      "INTRO  Re  MI  FAm#  DOm#\n      Re                     MI\nMi orgullo me sacó del jardín\n         FAm#                  DOm#\nSu humildad puso el jardín en mí\n      Re                     MI\nY si vendiera todo lo que tengo\n    FAm#                       DOm#\nA cambio de Su amor, yo fallaría\n\n            Re\nPorque Su amor no se compra\nMI\nNi se merece\n    FAm#\nSu amor es un regalo\n    DOm#\nDe gracia, se recibe\n\n\n   Re                MI\nQuiero conocer a Jesús\n    FAm#              DOm#\nQuiero conocer a Jesús\n\n\nRe            MI FAm#   DOm# \nYeshua, ah-ah-ah, ah-ah-ah\n\n     RE             FAm#\nMi amado es el más bello\n          LA          DOm#\nEntre millares y millares",
     image: "img/quiero-conocer-a-jesus-GUITARRA.webp",
     tutorialType: "explicacion",
   },
@@ -73,12 +78,58 @@ const tutorials = [
     name: "JEHOVA ES MI GUERRERO",
     path: "Jehovah-es-mi-guerrero-guitarra",
     title: "Jehovah es mi guerrero Guitarra",
-    description: "tutorial Jehovah es mi guerrero Fácil en guitarra bien explicado",
-    longDescription: "Video tutorial de como tocar la canción Jehovah es mi guerrero, de una forma bien fácil y sencilla. ",
+    description:
+      "tutorial Jehovah es mi guerrero Fácil en guitarra bien explicado",
+    longDescription:
+      "Video tutorial de como tocar la canción Jehovah es mi guerrero, de una forma bien fácil y sencilla. ",
     videoURL: "https://youtu.be/9QqQDO2QYro",
-    lyrics:"intro\n//MIm-MIm-RE-MIm     DO   RE   MIm//\n\ncoro\nMIm                    DO  RE   MIm\nJehová es mi guerrero, oh, oh, oh\n\n\n\nescribillo\nLAm                 MIm\nY con mi alabanza, pelearé\n        DO     RE       MIm-RE-MIm\nPues no es mi guerra, sino la de Dios\nLAm              MIm\nDanza y pandero, yo daré\n        DO     RE       MIm-RE-MIm\nPues no es mi guerra, sino la de Dios\nLAm                   MIm\nCímbalo y trompeta sonaré\n        DO     RE       MIm-RE-MIm\nPues no es mi guerra, sino la de Dios \nLAm               MIm         SI7\nCon fuerte y alta voz yo gritaréeeeeeeee",
+    lyrics:
+      "intro\n//MIm-MIm-RE-MIm     DO   RE   MIm//\n\ncoro\nMIm                    DO  RE   MIm\nJehová es mi guerrero, oh, oh, oh\n\n\n\nescribillo\nLAm                 MIm\nY con mi alabanza, pelearé\n        DO     RE       MIm-RE-MIm\nPues no es mi guerra, sino la de Dios\nLAm              MIm\nDanza y pandero, yo daré\n        DO     RE       MIm-RE-MIm\nPues no es mi guerra, sino la de Dios\nLAm                   MIm\nCímbalo y trompeta sonaré\n        DO     RE       MIm-RE-MIm\nPues no es mi guerra, sino la de Dios \nLAm               MIm         SI7\nCon fuerte y alta voz yo gritaréeeeeeeee",
     image: "img/JEHOVAH-ES-MI-GUERRERO-GUITARRA.webp",
     tutorialType: "explicacion",
+  },
+  {
+    id: 7,
+    name: "bautisame con tu fuego guitarra",
+    path: "bautisame-con-tu-fuego-guitarra",
+    title: "Bautizame con tu fuego, Guitarra",
+    description:
+      "tutorial Bautizame con tu fuego Fácil en guitarra bien explicado",
+    longDescription:
+      "Video tutorial de como tocar la canción bautisame con tu fuego, de una forma bien fácil y sencilla. ",
+    videoURL: "https://www.youtube.com/watch?v=uR1fBRTcWSQ&t=21s",
+    lyrics:
+      "Am            G           Am\nSÉ QUE TÚ DESEAS MÁS DE MÍ,\n          G        Dm\nSÉ QUE CLAMAS POR MÍ.\n\n\n             G             Dm\nESPERANDO ESTOY POR TU PODER,\n\nF          Em             Am\nVIENTO DE DIOS, SOPLA EN MÍ.\n\nCoro.\n\nAm                 G\nBAUTÍZAME CON TU FUEGO,\n\n    Dm             Am\nBAUTÍZAME CON TU FUEGO,\nC             Em           Am\nSANTO, SANTO, SANTO ESPÍRITU.\n\nBrigde\n\nC        G         Dm\nME DESPOJO DE MÍ,\n      Am           C\nSATÚRAME DE TI.\nC           Dm         F\nY MIS DÍAS VIVIRÉ POR TI,\n    G     Am\nESPÍRITU SANTO.\n\n\nnotas:\nC  = DO\nEm = MIm\nAm = LAm\nDm = REm\nG  = SOL\nF  = FA",
+    image: "img/bautisame-con-tu-fuego.webp",
+    tutorialType: "explicacion",
+  },
+  {
+    id: 8,
+    name: "Ven Espíritu Santo Guitarra",
+    path: "ven-espiritu-santo-pista-guitarra",
+    title: "Ven Espíritu Santo, Guitarra",
+    description: "tutorial Ven Espíritu Santo Fácil en guitarra bien explicado",
+    longDescription:
+      "Video tutorial de como tocar la canción Ven Espíritu Santo, de una forma bien fácil y sencilla. ",
+    videoURL: "https://www.youtube.com/watch?v=aSfTqN1c_z8",
+    lyrics:
+      "INTRO:  MIm  RE DO SI7  8 TIEMPOS CADA NOTA\n\nMIm                         RE\nEstoy aquí, desesperado por ti\n           DO                         SI 7\nCon un corazón sediento, que espera beber de ti\n\nDO\nCuando tu gloria desciende a un lugar\nRE\nToda la tierra tiene que adorar\n     LAm\nResucitan los muertos se sanan enfermos\n     SI\npor tu poder.\nDO\nQueremos de ti llénanos de ti\nRE\nEspíritu santo envuélvenos en ti\n    LAm                 SI 7\nDerrama tu gloria, Esperamos por ti\n\nCORO:\nMIm\nVen, ven, ven espíritu santo\nRE\nVen, ven, ven espíritu santo\nDO                         SI 7\nVen, ven, ven llena este lugar",
+    image: "img/VenEspírituSanto.webp",
+    tutorialType: "explicacion",
+  },
+  {
+    id: 9,
+    name: "LINDO LINDO en español Cover Guitarra",
+    path: "lindo-lindo-cover-acordes-guitarra",
+    title: "Lindo lindo, cover con acordes Guitarra",
+    description:
+      "cover con acordes de la cancion Lindo Lindo, en español Fácil en guitarra",
+    longDescription:
+      "Video cover con acordes de la canción Lindo lindo, de una forma bien fácil y sencilla. ",
+    videoURL: "https://www.youtube.com/watch?v=xy4hBWr34NY",
+    lyrics: " LAm       FA      DO      SOL",
+    image: "img/lindoLindoCoverConAcordesGuitarra.webp",
+    tutorialType: "cover",
   },
 ];
 
