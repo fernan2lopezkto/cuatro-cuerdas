@@ -1,8 +1,10 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import VideoPlayer from "../components/VideoPlayer";
-import { NavLink, Link } from "react-router-dom";
-import { Button, Container, Grid, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
+import { Container, Grid, Typography } from "@mui/material";
+import SelectorTypeTutorials from "../components/SelectorTypeTutorials";
+import MaterialExtraComponent from "../components/MaterialExtraComponent";
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} sm={5} sx={{ mt: 4 }}>
-            <Typography variant="h4" component="h1">
+            <Typography variant="h4" component={Link} to="/cuatro-cuerdas/contact"
+            className="link">
               Cuatro Cuerdas
             </Typography>
             <Typography variant="h6" component="p">
@@ -27,60 +30,9 @@ export default function Home() {
           </Grid>
         </Grid>
 
-
-        <Grid
-          container
-          justifyContent="center"
-          spacing={1}
-          sx={{ mt: 2, mb: 4 }}
-        >
-          <Grid item xs={12} sm={4}>
-            <Button variant="outlined" color="error">
-              <NavLink className="link2" to="/cuatro-cuerdas/tutorials">
-                <Typography variant="h6" component="p">
-                  Explicados
-                </Typography>
-              </NavLink>
-            </Button>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <Button variant="outlined" color="error">
-              <NavLink className="link2" to="/cuatro-cuerdas/pistatutorials">
-                <Typography variant="h6" component="p">
-                  Con Pistas
-                </Typography>
-              </NavLink>
-            </Button>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <Button variant="outlined" color="error">
-              <NavLink className="link2" to="/cuatro-cuerdas/covers">
-                <Typography variant="h6" component="p">
-                  Covers
-                </Typography>
-              </NavLink>
-            </Button>
-          </Grid>
-        </Grid>
-
-        <Grid
-          container
-          justifyContent="center"
-          spacing={4}
-          sx={{ mt: 2, mb: 4 }}
-        >
-          <Grid item xs={12}>
-            <Typography variant="h5" component="h2">
-              <Link className="link" to="/cuatro-cuerdas/material-extra">
-              Material Extra
-              </Link>
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-          </Grid>
-        </Grid>
+        <SelectorTypeTutorials />
+        <MaterialExtraComponent />
+        
       </Container>
       <Footer />
     </>

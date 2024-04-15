@@ -2,6 +2,8 @@ import Card from "../components/Card";
 import tutorials from "../data/tutorials";
 import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
+import SelectorTypeTutorials from "../components/SelectorTypeTutorials";
+import MaterialExtraComponent from "../components/MaterialExtraComponent";
 
 export default function AllTutorialsGallery() {
   const tutorialList = tutorials.map((t) => {
@@ -18,9 +20,11 @@ export default function AllTutorialsGallery() {
     <>
       <NavBar />
       <section className="Container">
+      <SelectorTypeTutorials />
         <h1 className="Container">Tutoriales</h1>
         <div className="containerCards">{tutorialList}</div>
-        </section>
+      </section>
+      <MaterialExtraComponent />
       <Footer />
     </>
   );
