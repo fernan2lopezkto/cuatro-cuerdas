@@ -22,7 +22,7 @@ export default function Home() {
             </Typography>
             <Typography variant="p" component="p">
               Un lugar de ayuda para los que recién comienzan en su llamado a
-              servir a Dios a trabes de la música
+              servir a Dios a través de la música
             </Typography>
           </Grid>
           <Grid item xs={12} sm={7} sx={{ mt: 4, mb: 6 }}>

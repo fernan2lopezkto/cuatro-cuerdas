@@ -2,10 +2,10 @@ import os
 
 # Función para procesar un archivo de texto
 def procesar_archivo(input_path, output_path):
-    with open(input_path, 'r') as archivo_entrada:
+    with open(input_path, 'r',  encoding='utf-8', errors='ignore') as archivo_entrada:
         contenido = archivo_entrada.read().replace('\n', '\\n')
     
-    with open(output_path, 'w') as archivo_salida:
+    with open(output_path, 'w', encoding='utf-8') as archivo_salida:
         archivo_salida.write(contenido)
 
 # Directorios de entrada y salida

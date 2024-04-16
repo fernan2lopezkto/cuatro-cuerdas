@@ -8,7 +8,7 @@ import MaterialExtraComponent from "../components/MaterialExtraComponent";
 export default function PistasGallery() {
   const pistaslList = tutorials.map((t) => {
     return (
-      t.tutorialType === "pista" && (
+      t.tutorialType.includes("pista") && (
         <Card
           name={t.title}
           description={t.description}

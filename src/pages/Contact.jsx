@@ -47,8 +47,14 @@ export default function Contact() {
               instrumento de una forma muy fácil y sencilla.
               <br />
               <br />
-              Si te interesa te aconsejo suscribirte a mi canal de YouTube y
-              actives la campanita así te avisa para hacerlo haz clic aquí
+              <Button
+                component="a"
+                href="https://www.youtube.com/channel/UCzDwqmIqlVE0ngBpGn0K8uA"
+                color="error"
+              >
+                Si te interesa te aconsejo suscribirte a mi canal de YouTube y
+                actives la campanita así te avisa para hacerlo haz clic aquí
+              </Button>
               <br />
               <br />
               4C es por Cuatro Cuerdas, mi instrumento favorito es el bajo y por

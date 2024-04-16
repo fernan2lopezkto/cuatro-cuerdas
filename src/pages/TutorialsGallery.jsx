@@ -8,7 +8,7 @@ import MaterialExtraComponent from "../components/MaterialExtraComponent";
 export default function TutorialsGallery() {
   const tutorialList = tutorials.map((t) => {
     return (
-      t.tutorialType === "explicacion" && (
+      (t.tutorialType.includes("explicacion")) && (
         <Card
           name={t.title}
           description={t.description}
