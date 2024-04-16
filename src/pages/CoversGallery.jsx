@@ -8,7 +8,7 @@ import MaterialExtraComponent from "../components/MaterialExtraComponent";
 export default function CoversGallery() {
   const coverslList = tutorials.map((t) => {
     return (
-      t.tutorialType === "cover" && (
+      t.tutorialType.includes("cover") && (
         <Card
           name={t.title}
           description={t.description}
